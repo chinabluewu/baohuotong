@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ad_layout_bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+       <TextView
+           android:layout_width="fill_parent"
+           android:layout_height="40dip"
+           android:background="@drawable/headtab_bg"
+           style="@style/main_head_title"
+           android:text="充值记录"
+           android:id="@+id/tv_chargeTitle"
+           android:textSize="20dp"
+           android:gravity="center" />
+
+
+    </LinearLayout>
+
+    <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" >
+
+            <com.demo.app.widget.MyListView
+                android:id="@+id/chargeHistory_listview"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:cacheColorHint="@android:color/transparent"
+                android:divider="@drawable/line2"
+                android:dividerHeight="1dip"
+                android:listSelector="@android:color/transparent"
+                android:scrollbars="none" />
+        </ScrollView>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:gravity="center"
+            android:id="@+id/tv_chargeTotal"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/bt_chargeBack"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:text="返回" />
+    </LinearLayout>
+
+
+</LinearLayout>
+<!-- From: file:/D:/深圳项目/httpListViewJSON/app/src/main/res/layout/activity_charge_history.xml -->

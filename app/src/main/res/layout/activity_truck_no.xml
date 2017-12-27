@@ -1,0 +1,1029 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+
+    <FrameLayout style="@style/meun_top_lin"
+        android:background="#ff697b6e">
+        <TextView
+            android:layout_gravity="left|center"
+            android:id="@+id/tvTruckNoBack"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:text="返回"
+            android:textColor="@android:color/white"
+            android:textSize="16dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp" />
+
+        <TextView
+            style="@style/meun_top_title_center"
+            android:layout_gravity="center"
+            android:text="选择车牌号"
+             />
+    </FrameLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+
+        android:layout_weight="0.5"
+        android:id="@+id/tvTruckNoShow"
+        android:background="@color/gold"
+        android:textSize="30dp"
+        android:gravity="center_vertical" />
+
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:background="#ff1b8a68"
+        android:textColor="@android:color/white"
+
+        android:text="删除"
+        android:id="@+id/tvTruckNoDel"
+        android:textSize="18dp"
+        android:gravity="center"
+        android:layout_marginRight="5dp"
+        android:layout_weight="0.25" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="#ff1b8a68"
+            android:textColor="@android:color/white"
+
+            android:text="完成"
+            android:id="@+id/tvTruckNoOK"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:layout_weight="0.25"
+            android:layout_marginRight="5dp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp">
+
+
+        <TextView
+            android:text="显示地区简称"
+            android:textSize="24dp"
+            android:background="#ff1b8a68"
+            android:textColor="@android:color/white"
+            android:id="@+id/tvShowArea"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_column="0"
+            android:layout_weight="1"
+            android:layout_marginRight="3dp" />
+
+        <TextView
+            android:text="显示字母数字"
+            android:textSize="24dp"
+            android:background="#ff1b8a68"
+            android:textColor="@android:color/white"
+            android:id="@+id/tvShowNum"
+            android:layout_width="0dp"
+            android:layout_column="1"
+            android:layout_weight="1"
+            android:layout_marginRight="3dp"
+            android:gravity="center"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:visibility="visible"
+        android:id="@+id/TlArea">
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="3dp"
+            android:background="@android:color/white">
+
+            <TextView
+                android:text="京"
+                android:id="@+id/truckNoJing"
+                android:textSize="30dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_column="0"
+                android:layout_weight="1"
+                android:layout_marginRight="3dp"
+                android:background="@color/graywhite" />
+
+            <TextView
+                android:text="津"
+                android:textSize="30dp"
+                android:id="@+id/truckNoJin"
+                android:layout_width="0dp"
+                android:gravity="center"
+                android:layout_column="1"
+                android:layout_weight="1"
+                android:background="@color/graywhite"
+                android:layout_marginRight="3dp" />
+
+            <TextView
+                android:text="沪"
+                android:textSize="30dp"
+                android:id="@+id/truckNoHu"
+                android:layout_width="0dp"
+                android:gravity="center"
+                android:layout_column="2"
+                android:layout_weight="1"
+                android:layout_marginRight="3dp"
+                android:background="@color/graywhite"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:text="渝"
+                android:textSize="30dp"
+                android:id="@+id/truckNoYuCQ"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_column="3"
+                android:layout_weight="1"
+                android:background="@color/graywhite"
+                android:layout_marginRight="3dp" />
+
+            <TextView
+                android:text="冀"
+                android:textSize="30dp"
+                android:id="@+id/truckNoYi"
+                android:layout_column="4"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:background="@color/graywhite"
+                android:layout_marginRight="3dp" />
+
+            <TextView
+                android:text="豫"
+                android:id="@+id/truckNoYu"
+                android:textSize="30dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_column="5"
+                android:layout_weight="1"
+                android:background="@color/graywhite"
+                android:layout_marginRight="3dp" />
+        </TableRow>
+
+
+
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="3dp"
+            android:background="@android:color/white">
+
+            <TextView
+                android:text="云"
+                android:textSize="30dp"
+                android:id="@+id/truckNoYun"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_column="0"
+                android:layout_weight="1"
+                android:background="@color/graywhite"
+                android:layout_marginRight="3dp" />
+
+            <TextView
+                android:text="辽"
+                android:textSize="30dp"
+                android:id="@+id/truckNoLiao"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_column="1"
+                android:layout_weight="1"
+                android:background="@color/graywhite"
+                android:layout_marginRight="3dp" />
+
+            <TextView
+                android:text="黑"
+                android:textSize="30dp"
+                android:id="@+id/truckNoHei"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_column="2"
+                android:layout_weight="1"
+                android:background="@color/graywhite"
+                android:layout_marginRight="3dp" />
+
+            <TextView
+                android:text="湘"
+                android:textSize="30dp"
+                android:id="@+id/truckNoXiang"
+                android:layout_column="3"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="@color/graywhite"
+                android:layout_marginRight="3dp" />
+
+            <TextView
+                android:text="皖"
+                android:textSize="30dp"
+                android:id="@+id/truckNoWan"
+                android:gravity="center"
+                android:layout_column="4"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="@color/graywhite"
+                android:layout_marginRight="3dp" />
+
+            <TextView
+                android:text="鲁"
+                android:textSize="30dp"
+                android:id="@+id/truckNoLu"
+                android:layout_column="5"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="@color/graywhite"
+                android:layout_marginRight="3dp" />
+        </TableRow>
+
+
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="3dp"
+            android:background="@android:color/white">
+
+            <TextView
+                android:text="新"
+                android:id="@+id/truckNoXin"
+                android:textSize="30dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_column="0"
+                android:layout_weight="1"
+                android:background="@color/graywhite"
+                android:layout_marginRight="3dp" />
+
+            <TextView
+                android:text="苏"
+                android:textSize="30dp"
+                android:id="@+id/truckNoSu"
+                android:layout_width="0dp"
+                android:gravity="center"
+                android:layout_column="1"
+                android:layout_weight="1"
+                android:background="@color/graywhite"
+                android:layout_marginRight="3dp" />
+
+            <TextView
+                android:text="浙"
+                android:textSize="30dp"
+                android:id="@+id/truckNoZhe"
+                android:layout_width="0dp"
+                android:gravity="center"
+                android:layout_column="2"
+                android:layout_weight="1"
+                android:layout_marginRight="3dp"
+                android:background="@color/graywhite"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:text="赣"
+                android:textSize="30dp"
+                android:id="@+id/truckNoGan"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_column="3"
+                android:layout_weight="1"
+                android:background="@color/graywhite"
+                android:layout_marginRight="3dp" />
+
+            <TextView
+                android:text="鄂"
+                android:textSize="30dp"
+                android:id="@+id/truckNoEe"
+                android:layout_column="4"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:background="@color/graywhite"
+                android:layout_marginRight="3dp" />
+
+            <TextView
+                android:text="桂"
+                android:id="@+id/truckNoGui"
+                android:textSize="30dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_column="5"
+                android:layout_weight="1"
+                android:background="@color/graywhite"
+                android:layout_marginRight="3dp" />
+        </TableRow>
+
+
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="3dp"
+            android:background="@android:color/white">
+
+            <TextView
+                android:text="甘"
+                android:textSize="30dp"
+                android:id="@+id/truckNoGanGS"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_column="0"
+                android:layout_weight="1"
+                android:background="@color/graywhite"
+                android:layout_marginRight="3dp" />
+
+            <TextView
+                android:text="晋"
+                android:textSize="30dp"
+                android:id="@+id/truckNoJinSX"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_column="1"
+                android:layout_weight="1"
+                android:background="@color/graywhite"
+                android:layout_marginRight="3dp" />
+
+            <TextView
+                android:text="蒙"
+                android:textSize="30dp"
+                android:id="@+id/truckNoMong"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_column="2"
+                android:layout_weight="1"
+                android:background="@color/graywhite"
+                android:layout_marginRight="3dp" />
+
+            <TextView
+                android:text="陕"
+                android:textSize="30dp"
+                android:id="@+id/truckNoShan"
+                android:layout_column="3"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="@color/graywhite"
+                android:layout_marginRight="3dp" />
+
+            <TextView
+                android:text="吉"
+                android:textSize="30dp"
+                android:id="@+id/truckNoJi"
+                android:gravity="center"
+                android:layout_column="4"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="@color/graywhite"
+                android:layout_marginRight="3dp" />
+
+            <TextView
+                android:text="闽"
+                android:textSize="30dp"
+                android:id="@+id/truckNoMin"
+                android:layout_column="5"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="@color/graywhite"
+                android:layout_marginRight="3dp" />
+        </TableRow>
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="3dp"
+            android:background="@android:color/white">
+
+            <TextView
+                android:text="贵"
+                android:textSize="30dp"
+                android:id="@+id/truckNoGuiGZ"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_column="0"
+                android:layout_weight="1"
+                android:background="@color/graywhite"
+                android:layout_marginRight="3dp" />
+
+            <TextView
+                android:text="粤"
+                android:textSize="30dp"
+                android:id="@+id/truckNoYue"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_column="1"
+                android:layout_weight="1"
+                android:background="@color/graywhite"
+                android:layout_marginRight="3dp" />
+
+            <TextView
+                android:text="青"
+                android:textSize="30dp"
+                android:id="@+id/truckNoQing"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_column="2"
+                android:layout_weight="1"
+                android:background="@color/graywhite"
+                android:layout_marginRight="3dp" />
+
+            <TextView
+                android:text="藏"
+                android:textSize="30dp"
+                android:id="@+id/truckNoZang"
+                android:layout_column="3"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="@color/graywhite"
+                android:layout_marginRight="3dp" />
+
+            <TextView
+                android:text="川"
+                android:textSize="30dp"
+                android:id="@+id/truckNoChuan"
+                android:gravity="center"
+                android:layout_column="4"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="@color/graywhite"
+                android:layout_marginRight="3dp" />
+
+            <TextView
+                android:text="宁"
+                android:textSize="30dp"
+                android:id="@+id/truckNoNing"
+                android:layout_column="5"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="@color/graywhite"
+                android:layout_marginRight="3dp" />
+        </TableRow>
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:background="@android:color/white">
+
+        <TextView
+            android:text="琼"
+            android:textSize="30dp"
+            android:id="@+id/truckNoQiong"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_column="0"
+            android:background="@color/graywhite"
+            android:layout_marginRight="3dp"
+            android:layout_weight="0.5" />
+
+        <TextView
+            android:text="挂"
+            android:textSize="30dp"
+            android:id="@+id/truckNoGua"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_column="1"
+            android:background="@color/graywhite"
+            android:layout_marginRight="3dp"
+            android:layout_weight="0.5" />
+
+
+            <TextView
+                android:text=""
+                android:textSize="30dp"
+                android:id="@+id/truckNoBlank1"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_column="2"
+
+                android:layout_marginRight="12dp"
+                android:layout_weight="2" />
+
+
+        </TableRow>
+
+    </TableLayout>
+
+
+
+
+
+
+    <TableLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:visibility="gone"
+        android:id="@+id/TlNum">
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="3dp"
+            android:background="@android:color/white">
+
+            <TextView
+                android:text="0"
+                android:id="@+id/truckNo0"
+                android:textSize="30dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_column="0"
+                android:layout_weight="1"
+                android:layout_marginRight="3dp"
+                android:background="@color/graywhite" />
+
+            <TextView
+                android:text="1"
+                android:textSize="30dp"
+                android:id="@+id/truckNo1"
+                android:layout_width="0dp"
+                android:gravity="center"
+                android:layout_column="1"
+                android:layout_weight="1"
+                android:background="@color/graywhite"
+                android:layout_marginRight="3dp" />
+
+            <TextView
+                android:text="2"
+                android:textSize="30dp"
+                android:id="@+id/truckNo2"
+                android:layout_width="0dp"
+                android:gravity="center"
+                android:layout_column="2"
+                android:layout_weight="1"
+                android:layout_marginRight="3dp"
+                android:background="@color/graywhite"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:text="3"
+                android:textSize="30dp"
+                android:id="@+id/truckNo3"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_column="3"
+                android:layout_weight="1"
+                android:background="@color/graywhite"
+                android:layout_marginRight="3dp" />
+
+            <TextView
+                android:text="4"
+                android:textSize="30dp"
+                android:id="@+id/truckNo4"
+                android:layout_column="4"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:background="@color/graywhite"
+                android:layout_marginRight="3dp" />
+
+            <TextView
+                android:text="5"
+                android:id="@+id/truckNo5"
+                android:textSize="30dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_column="5"
+                android:layout_weight="1"
+                android:background="@color/graywhite"
+                android:layout_marginRight="3dp" />
+        </TableRow>
+
+
+
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="3dp"
+            android:background="@android:color/white">
+
+            <TextView
+                android:text="6"
+                android:textSize="30dp"
+                android:id="@+id/truckNo6"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_column="0"
+                android:layout_weight="1"
+                android:background="@color/graywhite"
+                android:layout_marginRight="3dp" />
+
+            <TextView
+                android:text="7"
+                android:textSize="30dp"
+                android:id="@+id/truckNo7"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_column="1"
+                android:layout_weight="1"
+                android:background="@color/graywhite"
+                android:layout_marginRight="3dp" />
+
+            <TextView
+                android:text="8"
+                android:textSize="30dp"
+                android:id="@+id/truckNo8"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_column="2"
+                android:layout_weight="1"
+                android:background="@color/graywhite"
+                android:layout_marginRight="3dp" />
+
+            <TextView
+                android:text="9"
+                android:textSize="30dp"
+                android:id="@+id/truckNo9"
+                android:layout_column="3"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="@color/graywhite"
+                android:layout_marginRight="3dp" />
+
+            <TextView
+                android:text="A"
+                android:textSize="30dp"
+                android:id="@+id/truckNoA"
+                android:gravity="center"
+                android:layout_column="4"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="@color/graywhite"
+                android:layout_marginRight="3dp" />
+
+            <TextView
+                android:text="B"
+                android:textSize="30dp"
+                android:id="@+id/truckNoB"
+                android:layout_column="5"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="@color/graywhite"
+                android:layout_marginRight="3dp" />
+        </TableRow>
+
+
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="3dp"
+            android:background="@android:color/white">
+
+            <TextView
+                android:text="C"
+                android:id="@+id/truckNoC"
+                android:textSize="30dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_column="0"
+                android:layout_weight="1"
+                android:background="@color/graywhite"
+                android:layout_marginRight="3dp" />
+
+            <TextView
+                android:text="D"
+                android:textSize="30dp"
+                android:id="@+id/truckNoD"
+                android:layout_width="0dp"
+                android:gravity="center"
+                android:layout_column="1"
+                android:layout_weight="1"
+                android:background="@color/graywhite"
+                android:layout_marginRight="3dp" />
+
+            <TextView
+                android:text="E"
+                android:textSize="30dp"
+                android:id="@+id/truckNoE"
+                android:layout_width="0dp"
+                android:gravity="center"
+                android:layout_column="2"
+                android:layout_weight="1"
+                android:layout_marginRight="3dp"
+                android:background="@color/graywhite"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:text="F"
+                android:textSize="30dp"
+                android:id="@+id/truckNoF"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_column="3"
+                android:layout_weight="1"
+                android:background="@color/graywhite"
+                android:layout_marginRight="3dp" />
+
+            <TextView
+                android:text="G"
+                android:textSize="30dp"
+                android:id="@+id/truckNoG"
+                android:layout_column="4"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:background="@color/graywhite"
+                android:layout_marginRight="3dp" />
+
+            <TextView
+                android:text="H"
+                android:id="@+id/truckNoH"
+                android:textSize="30dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_column="5"
+                android:layout_weight="1"
+                android:background="@color/graywhite"
+                android:layout_marginRight="3dp" />
+        </TableRow>
+
+
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="3dp"
+            android:background="@android:color/white">
+
+
+
+            <TextView
+                android:text="J"
+                android:textSize="30dp"
+                android:id="@+id/truckNoJ"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_column="0"
+                android:layout_weight="1"
+                android:background="@color/graywhite"
+                android:layout_marginRight="3dp" />
+
+            <TextView
+                android:text="K"
+                android:textSize="30dp"
+                android:id="@+id/truckNoK"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_column="1"
+                android:layout_weight="1"
+                android:background="@color/graywhite"
+                android:layout_marginRight="3dp" />
+
+            <TextView
+                android:text="L"
+                android:textSize="30dp"
+                android:id="@+id/truckNoL"
+                android:layout_column="2"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="@color/graywhite"
+                android:layout_marginRight="3dp" />
+
+            <TextView
+                android:text="M"
+                android:textSize="30dp"
+                android:id="@+id/truckNoM"
+                android:gravity="center"
+                android:layout_column="3"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="@color/graywhite"
+                android:layout_marginRight="3dp" />
+
+            <TextView
+                android:text="N"
+                android:textSize="30dp"
+                android:id="@+id/truckNoN"
+                android:layout_column="4"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="@color/graywhite"
+                android:layout_marginRight="3dp" />
+
+            <TextView
+                android:text="P"
+                android:textSize="30dp"
+                android:id="@+id/truckNoP"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_column="5"
+                android:layout_weight="1"
+                android:background="@color/graywhite"
+                android:layout_marginRight="3dp" />
+
+
+        </TableRow>
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="3dp"
+            android:background="@android:color/white">
+
+            <TextView
+                android:text="Q"
+                android:textSize="30dp"
+                android:id="@+id/truckNoQ"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_column="0"
+                android:layout_weight="1"
+                android:background="@color/graywhite"
+                android:layout_marginRight="3dp" />
+
+            <TextView
+                android:text="R"
+                android:textSize="30dp"
+                android:id="@+id/truckNoR"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_column="1"
+                android:layout_weight="1"
+                android:background="@color/graywhite"
+                android:layout_marginRight="3dp" />
+
+            <TextView
+                android:text="S"
+                android:textSize="30dp"
+                android:id="@+id/truckNoS"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_column="2"
+                android:layout_weight="1"
+                android:background="@color/graywhite"
+                android:layout_marginRight="3dp" />
+
+            <TextView
+                android:text="T"
+                android:textSize="30dp"
+                android:id="@+id/truckNoT"
+                android:layout_column="3"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="@color/graywhite"
+                android:layout_marginRight="3dp" />
+
+            <TextView
+                android:text="U"
+                android:textSize="30dp"
+                android:id="@+id/truckNoU"
+                android:gravity="center"
+                android:layout_column="4"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="@color/graywhite"
+                android:layout_marginRight="3dp" />
+
+            <TextView
+                android:text="V"
+                android:textSize="30dp"
+                android:id="@+id/truckNoV"
+                android:layout_column="5"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="@color/graywhite"
+                android:layout_marginRight="3dp" />
+        </TableRow>
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="3dp"
+            android:background="@android:color/white">
+
+            <TextView
+                android:text="W"
+                android:textSize="30dp"
+                android:id="@+id/truckNoW"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_column="0"
+                android:background="@color/graywhite"
+                android:layout_marginRight="3dp"
+                android:layout_weight="0.5" />
+
+            <TextView
+                android:text="X"
+                android:textSize="30dp"
+                android:id="@+id/truckNoX"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_column="1"
+                android:background="@color/graywhite"
+                android:layout_marginRight="3dp"
+                android:layout_weight="0.5" />
+            <TextView
+                android:text="Y"
+                android:textSize="30dp"
+                android:id="@+id/truckNoY"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_column="0"
+                android:background="@color/graywhite"
+                android:layout_marginRight="3dp"
+                android:layout_weight="0.5" />
+
+            <TextView
+                android:text="Z"
+                android:textSize="30dp"
+                android:id="@+id/truckNoZ"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_column="1"
+                android:background="@color/graywhite"
+                android:layout_marginRight="3dp"
+                android:layout_weight="0.5" />
+
+            <TextView
+                android:text=""
+                android:textSize="30dp"
+                android:id="@+id/truckNoBlank2"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_column="2"
+
+                android:layout_marginRight="6dp"
+                android:layout_weight="1" />
+
+
+        </TableRow>
+
+    </TableLayout>
+
+
+</LinearLayout>

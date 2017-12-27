@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_nameold">保信通客户端</string>
+    <string name="app_name">保货通</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="login_title">登录</string>
+    <string name="login_findPw">忘记密码?</string>
+
+    <string name="reg_nick">用户名</string>
+    <string name="reg_pw">密码</string>
+    <string name="reg_hint_nick">用户名或邮箱</string>
+    <string name="reg_hint_pw">只能数字或英文字母</string>
+
+    <string name="reg_phone">手机</string>
+    <string name="reg_hint_phone">请输入手机号码</string>
+
+    <string name="reg_pw_errorsize">密码需要6-18位!</string>
+    <string name="reg_pwagain">确认密码</string>
+    <string name="reg_hint_pwagain">再次输入密码</string>
+
+
+
+    <string name="btn_register">快速注册</string>
+    <string name="btn_login">登录</string>
+
+    <string name="updatemima">修改密码</string>
+    <string name="updatemima_new">新密码</string>
+    <string name="updatemima_msg_success">成功修改密码!</string>
+
+    <string name="find_mimatitle">找回密码</string>
+    <string name="find_mima_hint_email">注册时的邮箱</string>
+    <string name="find_mima_success">新密码已经发送到注册时的邮箱中!</string>
+
+    <string name="message">优惠信息</string>
+    <string name="message_info">优惠信息详情</string>
+
+    <string name="about_title">关于</string>
+    <string name="about">本校专属手机应用\n各类校园服务订阅\n不再错过校园精彩</string>
+
+    <string name="tjdd_info">提交订单</string>
+
+    <string name="txt_wait">加载中...</string>
+    <string name="txt_wait_noweb">网络不给力!点击刷新.</string>
+    <string name="txt_wait_noweb_true">没有可用网络!</string>
+
+    <string name="star_on">收藏成功</string>
+    <string name="star_off">取消收藏</string>
+
+    <string name="txt_noImg">没有相册</string>
+    <string name="msg_back">再点击一次返回退出软件!</string>
+    <string name="msg_waitting">正在发送请求...</string>
+    <string name="msg_errorFormNull">请正确输入数据!</string>
+    <string name="msg_errorPwagain">两次密码输入不正确!</string>
+    <string name="msg_errorDes">加密机制出错!</string>
+    <string name="error_dophone_null">联系电话格式出错!</string>
+    <string name="error_dophone">操作失败!操作权限别限制,请检查是否使用第三方限制权限.</string>
+    <string name="ca_phone">长按操作</string>
+    <string name="ca_phone_hide">X 知道了</string>
+    <string name="callphone">拨打电话给对方</string>
+    <string name="savephone">收录到我的手机</string>
+    <string name="success_savephone">成功收录</string>
+
+    <string name="txt_newVersion">新版本提示</string>
+    <string name="txt_newVersionInfo">检测到新版本，立即更新吗？</string>
+    <string name="txt_dowloadNewVersion">正在下载新版本...</string>
+    <string name="txt_dowloadException">服务器异常，请稍等一会再下载...</string>
+    <string name="txt_dowloadFileNotFind">找不到安装包！</string>
+    <string name="btn_update">后台更新</string>
+    <string name="btn_ignore">下次再说</string>
+    <string name="noWeb">没有可用网络，请开启网络！</string>
+    <string name="webErrorLong">访问网络超时!</string>
+
+
+
+</resources>

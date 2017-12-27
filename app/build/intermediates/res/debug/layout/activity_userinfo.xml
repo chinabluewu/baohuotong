@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        android:stretchColumns="0,1,2"
+        android:background="@android:color/darker_gray">
+
+        <FrameLayout style="@style/meun_top_lin"
+            android:background="#ff697b6e">
+            <TextView android:layout_gravity="left|center" android:id="@+id/tv_infoback" android:layout_width="60dp" android:layout_height="40dp"
+                android:text="返回" android:textColor="@android:color/white"
+                android:textSize="16dp" android:gravity="center_vertical"
+                android:paddingLeft="20dp" />
+            <TextView  android:layout_gravity="right|center" android:id="@+id/tv_adduser" android:layout_width="90dp" android:layout_height="40dp"
+                android:textColor="@android:color/white"
+                android:textSize="16dp" android:gravity="center"/>
+            <TextView style="@style/meun_top_title_center" android:layout_gravity="center"
+
+                android:text="我的资料" />
+        </FrameLayout>
+
+        <LinearLayout android:layout_width="0px"
+            android:layout_height="0px" android:focusable="true"
+            android:focusableInTouchMode="true"></LinearLayout>
+
+
+
+
+        <TableRow android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="2dp"
+            android:background="@android:color/white"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:text="用户名:"
+                android:gravity="center"
+                android:textSize="16dp"
+                android:layout_weight="0.25" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_infoUser"
+                android:layout_column="1"
+
+                android:textSize="16dp"
+                android:layout_weight="0.7" />
+        </TableRow>
+
+
+
+        <TableRow android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="2dp"
+            android:background="@android:color/white"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:text="真实姓名:"
+                android:gravity="center"
+                android:textSize="16dp"
+                android:layout_weight="0.25" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_infoName"
+                android:layout_column="1"
+
+                android:textSize="16dp"
+                android:layout_weight="0.7" />
+
+        </TableRow>
+
+        <TableRow android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="2dp"
+            android:background="@android:color/white"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:text="身份证号:"
+                android:gravity="center"
+                android:textSize="16dp"
+                android:layout_weight="0.25" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_infoID"
+                android:layout_column="1"
+
+                android:textSize="16dp"
+                android:layout_weight="0.7" />
+
+        </TableRow>
+
+        <TableRow android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="2dp"
+            android:background="@android:color/white"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:text="联系电话:"
+                android:gravity="center"
+                android:textSize="16dp"
+                android:layout_weight="0.25" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_infotel"
+                android:layout_column="1"
+
+                android:textSize="16dp"
+                android:layout_weight="0.7"
+                android:numeric="integer"
+                android:phoneNumber="false" />
+        </TableRow>
+
+
+        <TableRow android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="2dp"
+            android:background="@android:color/white"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:text="联系地址:"
+                android:gravity="center"
+                android:textSize="16dp"
+                android:layout_weight="0.25" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_infoaddress"
+                android:layout_column="1"
+
+                android:textSize="16dp"
+                android:layout_weight="0.7" />
+        </TableRow>
+
+
+
+        <TableRow android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="2dp"
+            android:background="@color/graywhite"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="可用余额:"
+                android:textSize="16dp"
+                android:layout_weight="0.24"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:id="@+id/tv_infoMoney"
+                android:layout_column="1"
+
+                android:textSize="16dp"
+                android:gravity="center_vertical"
+                android:layout_weight="0.7" />
+
+        </TableRow>
+
+
+    </TableLayout>
+</ScrollView>
+<!-- From: file:/D:/深圳项目/httpListViewJSON/app/src/main/res/layout/activity_userinfo.xml -->

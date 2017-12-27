@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="60dip"
+    android:background="@drawable/list_item_drawable_bg" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:weightSum="1"
+            android:layout_marginBottom="4dp">
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginBottom="5dip"
+                android:layout_marginRight="6dip"
+                android:layout_marginTop="5dip"
+                android:orientation="vertical"
+                android:layout_marginLeft="6dip"
+                android:layout_weight="0.92"
+                android:background="@color/graywhite">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/TableRow_history1">
+
+                    <TextView
+                        android:layout_width="220dip"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="编号"
+                        android:id="@+id/tv_chargeListView_historyNo"
+                        android:layout_column="25" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="150dip"
+                    android:layout_height="match_parent"
+                    android:id="@+id/TableRow_history2">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="金额"
+                        android:id="@+id/tv_chargeListView_chargeVaule"
+                        android:layout_column="25" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/TableRow_history3">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="时间"
+                        android:id="@+id/tv_chargeListView_chargeTime"
+                        android:layout_column="25" />
+
+                </TableRow>
+
+            </TableLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/D:/深圳项目/httpListViewJSON/app/src/main/res/layout/charge_listview_item.xml -->

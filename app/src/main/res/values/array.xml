@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="xz">
+        <item>0 请选择</item>
+        <item>2 基本货损险</item>
+        <item>3 综合货损险</item>
+        <item>4 鲜活类货损险</item>
+    </string-array>
+
+    <string-array name="bxgs">
+        <item>0 请选择</item>
+        <item>1 平安</item>
+        <item>4 人保</item>
+        <item>5 大地</item>
+    </string-array>
+
+    <string-array name="sldw">
+        <item>吨</item>
+        <item>箱</item>
+        <item>件</item>
+    </string-array>
+
+    <string-array name="bzfs">
+        <item>000 请选择</item>
+        <item>001	木箱</item>
+        <item>002	纸箱</item>
+        <item>003	塑料箱</item>
+        <item>004	金属箱</item>
+        <item>005	金属桶</item>
+        <item>006	塑料桶</item>
+        <item>007	木桶</item>
+        <item>008	钢罐</item>
+        <item>009	编织袋</item>
+        <item>010	塑料袋</item>
+        <item>011	纸袋</item>
+        <item>012	散装</item>
+        <item>013	集装箱</item>
+        <item>014	箱</item>
+        <item>015	桶</item>
+        <item>016	袋</item>
+        <item>017	托盘</item>
+        <item>018	散</item>
+        <item>019	裸装</item>
+    </string-array>
+
+</resources>

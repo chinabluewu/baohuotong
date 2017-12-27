@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\Android\sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="D:\深圳项目\httpListViewJSON\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0-5c13dae993a3a70564280b74f4a6300075997e8b.jar" />
+    </item>
+    <item
+        jar="D:\深圳项目\httpListViewJSON\app\src\main\java\com\demo\app\libs\gson-2.2.4.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="973e832af433b44c3ed11c426f2f390b29f3f3f8">
+        <dex dex="D:\深圳项目\httpListViewJSON\app\build\intermediates\pre-dexed\debug\gson-2.2.4-c4e6d09ccf85f3953b06fd324aa3dd92b1ba7e82.jar" />
+    </item>
+    <item
+        jar="D:\深圳项目\httpListViewJSON\app\libs\commons-httpclient-3.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="964cd74171f427720480efdec40a7c7f6e58426a">
+        <dex dex="D:\深圳项目\httpListViewJSON\app\build\intermediates\pre-dexed\debug\commons-httpclient-3.1-a49ae9e6be6945204fc6df4097427fec2ff7611f.jar" />
+    </item>
+
+</items>
